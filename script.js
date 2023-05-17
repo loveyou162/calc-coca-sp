@@ -26,7 +26,7 @@ console.log(
   `tồn đầu coke: ${surviveHeadCoca}L, tồn cuối coke: ${surviveFooterCoca}L`
 );
 const lineCoca = function () {
-  return `Thực xuất: ${hieuCc.toFixed(2)}`;
+  return `${hieuCc.toFixed(2)}`;
 };
 console.log(lineCoca());
 document.getElementById(
@@ -38,7 +38,7 @@ const surviveFooterSp = volumeSpite();
 const hieuSp = surviveHeadSp - surviveFooterSp;
 console.log(`tồn đầu sp: ${surviveHeadSp}, tồn cuối sp: ${surviveFooterSp}`);
 const lineSp = function () {
-  return `Thực xuất ${hieuSp.toFixed(2)}`;
+  return `${hieuSp.toFixed(2)}`;
 };
 console.log(lineSp());
 document.getElementById(
